@@ -1,9 +1,9 @@
-import noun_toolkit
+import ru_noun_toolkit
 
 
 def generate_nouns(input_row):
     print("It is a noun")
-    noun_toolkit.generate_plural(input_row)
+    ru_noun_toolkit.generator(input_row)
 
 
 def generate_verbs(input_row):

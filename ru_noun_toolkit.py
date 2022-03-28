@@ -9,3 +9,7 @@ def generate_plural(input_row):
             print(str(word))
     except IndexError:
         print("[-] THERE SEEMS TO BE NO WORD!!!")
+
+
+def generator(input_row):
+    generate_plural(input_row)
